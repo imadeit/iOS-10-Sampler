@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		355CE6D31F0A1B4F00AF1077 /* MetalPerformanceShaders.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 355CE6D21F0A1B4F00AF1077 /* MetalPerformanceShaders.framework */; };
 		8A081CFD1D86FC9B00D7DDF4 /* Inception3Net+result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A081CFC1D86FC9B00D7DDF4 /* Inception3Net+result.swift */; };
 		8A081D001D8707E000D7DDF4 /* iOS10AddedFonts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A081CFF1D8707E000D7DDF4 /* iOS10AddedFonts.plist */; };
 		8A081D031D87080000D7DDF4 /* PropertyAnimator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A081D011D87080000D7DDF4 /* PropertyAnimator.storyboard */; };
@@ -315,6 +316,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		355CE6D21F0A1B4F00AF1077 /* MetalPerformanceShaders.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalPerformanceShaders.framework; path = System/Library/Frameworks/MetalPerformanceShaders.framework; sourceTree = SDKROOT; };
 		8A081CFC1D86FC9B00D7DDF4 /* Inception3Net+result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Inception3Net+result.swift"; sourceTree = "<group>"; };
 		8A081CFF1D8707E000D7DDF4 /* iOS10AddedFonts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = iOS10AddedFonts.plist; sourceTree = "<group>"; };
 		8A081D011D87080000D7DDF4 /* PropertyAnimator.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PropertyAnimator.storyboard; sourceTree = "<group>"; };
@@ -598,6 +600,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				355CE6D31F0A1B4F00AF1077 /* MetalPerformanceShaders.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -618,6 +621,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		355CE6D11F0A1B4F00AF1077 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				355CE6D21F0A1B4F00AF1077 /* MetalPerformanceShaders.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8A081CFE1D8707E000D7DDF4 /* plists */ = {
 			isa = PBXGroup;
 			children = (
@@ -1102,6 +1113,7 @@
 				8AA0748C1D86830200FEAC28 /* libs */,
 				8A1CC38D1D7AC22E00562709 /* SamplerStickerPack */,
 				8AB430561D7A6B4900A3BD98 /* Products */,
+				355CE6D11F0A1B4F00AF1077 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1282,23 +1294,23 @@
 				TargetAttributes = {
 					8A1CC38B1D7AC22E00562709 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 9Z86A4AWDE;
+						DevelopmentTeam = F2SCXDG35A;
 						ProvisioningStyle = Automatic;
 					};
 					8AB430541D7A6B4900A3BD98 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 9Z86A4AWDE;
+						DevelopmentTeam = F2SCXDG35A;
 						ProvisioningStyle = Automatic;
 					};
 					8AB430681D7A6B4A00A3BD98 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 9Z86A4AWDE;
+						DevelopmentTeam = F2SCXDG35A;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 8AB430541D7A6B4900A3BD98;
 					};
 					8AB430731D7A6B4A00A3BD98 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 9Z86A4AWDE;
+						DevelopmentTeam = F2SCXDG35A;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 8AB430541D7A6B4900A3BD98;
 					};
@@ -1688,9 +1700,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				DEVELOPMENT_TEAM = 9Z86A4AWDE;
+				DEVELOPMENT_TEAM = F2SCXDG35A;
 				INFOPLIST_FILE = SamplerStickerPack/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.shu223.iOS-10-Sampler.SamplerStickerPack";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leon.app.sample.AIApp.SamplerStickerPack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -1700,9 +1712,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				DEVELOPMENT_TEAM = 9Z86A4AWDE;
+				DEVELOPMENT_TEAM = F2SCXDG35A;
 				INFOPLIST_FILE = SamplerStickerPack/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.shu223.iOS-10-Sampler.SamplerStickerPack";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leon.app.sample.AIApp.SamplerStickerPack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -1805,10 +1817,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9Z86A4AWDE;
+				DEVELOPMENT_TEAM = F2SCXDG35A;
 				INFOPLIST_FILE = "iOS-10-Sampler/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.shu223.iOS-10-Sampler";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leon.app.sample.AIApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "iOS-10-Sampler/iOS10Sampler-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
@@ -1819,10 +1832,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9Z86A4AWDE;
+				DEVELOPMENT_TEAM = F2SCXDG35A;
 				INFOPLIST_FILE = "iOS-10-Sampler/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.shu223.iOS-10-Sampler";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leon.app.sample.AIApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "iOS-10-Sampler/iOS10Sampler-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
@@ -1834,7 +1848,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 9Z86A4AWDE;
+				DEVELOPMENT_TEAM = F2SCXDG35A;
 				INFOPLIST_FILE = "iOS-10-SamplerTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shu223.iOS-10-SamplerTests";
@@ -1849,7 +1863,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 9Z86A4AWDE;
+				DEVELOPMENT_TEAM = F2SCXDG35A;
 				INFOPLIST_FILE = "iOS-10-SamplerTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shu223.iOS-10-SamplerTests";
@@ -1863,7 +1877,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 9Z86A4AWDE;
+				DEVELOPMENT_TEAM = F2SCXDG35A;
 				INFOPLIST_FILE = "iOS-10-SamplerUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shu223.iOS-10-SamplerUITests";
@@ -1877,7 +1891,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 9Z86A4AWDE;
+				DEVELOPMENT_TEAM = F2SCXDG35A;
 				INFOPLIST_FILE = "iOS-10-SamplerUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shu223.iOS-10-SamplerUITests";
